@@ -1,4 +1,4 @@
-Considerations
+*Considerations*
 
 * Custom criteria entities (rows) can contain up to 1,000 recommended items (columns).
 
@@ -12,7 +12,7 @@ Considerations
 
 * The flow for an error-free upload should be Scheduled > Downloading Feed File > Importing > Successful.
 
-The following are possible error messages you might receive if Target encounters a problem with the upload:
+*The following are possible error messages you might receive if Target encounters a problem with the upload:*
 
 * Unknown Error: Indicates an internal technical error.
 * Parsing Error: There is likely an issue with the feed file format. Correct the file format and re-save the algorithm, which restarts the file download process.
